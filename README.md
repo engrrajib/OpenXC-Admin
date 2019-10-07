@@ -20,6 +20,8 @@ python install.py
 
 ## Known Issues
 
+Edit table.php and replace `http://web24.live:25461` with your IP:PORT or domain if you use it while we figure out a way to correctly generate the download link for lists
+
 This version is still under heavy development. We hope to improve it with the contributions of everyone!
 
 All the credits for @gtaxcpanel#2123
