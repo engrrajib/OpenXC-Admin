@@ -1,6 +1,7 @@
 <?php
 include "functions.php";
 if (!isset($_SESSION['user_id'])) { header("Location: ./login.php"); exit; }
+
 include "header.php";
 ?>        <div class="wrapper">
             <div class="container-fluid">
@@ -52,12 +53,13 @@ include "header.php";
                                         <tr>
                                             <th class="text-center">ID</th>
                                             <th>Username</th>
+											<th>Password</th>
                                             <th>Owner</th>
                                             <th class="text-center">Status</th>
                                             <th class="text-center">Online</th>
                                             <th class="text-center">Expiration</th>
-                                            <th class="text-center">Connections</th>
-                                            <th class="text-center">Last Connection</th>
+                                            <th class="text-center">Conn.</th>
+                                            <th class="text-center">Last Conn.</th>
                                             <th class="text-center">Actions</th>
                                         </tr>
                                     </thead>
