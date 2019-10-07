@@ -313,6 +313,19 @@ function getRegisteredUsernames() {
     return $return;
 }
 
+
+function getRegisteredUserbyID($id) {
+    global $db;
+    $return = Array();
+    $result = $db->query("SELECT `username` FROM `reg_users` WHERE `id`='$id';");
+    if (($result) && ($result->num_rows > 0)) {
+        while ($row = $result->fetch_assoc()) {
+            $return = $row['username'];
+        }
+    }
+    return $return;
+}
+
 function getOutputs($rUser=null) {
     global $db;
     $return = Array();
