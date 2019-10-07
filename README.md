@@ -1,8 +1,8 @@
-# XtreamCodes 2.9 Admin UI
+# OpenXC Admin UI
 
 ## What is this?
 
-A web interface that connects with the database of XtreamCodes 2.9 for adminsa
+A web interface that connects with the database of XtreamCodes 2.9 for admins
 
 #### Features:
 
@@ -21,3 +21,5 @@ python install.py
 ## Known Issues
 
 This version is still under heavy development. We hope to improve it with the contributions of everyone!
+
+All the credits for @gtaxcpanel#2123
